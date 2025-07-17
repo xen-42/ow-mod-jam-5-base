@@ -11,6 +11,9 @@
     "JAM_5_BASE_STARSHIP_COMMUNITY_RUMOR_FACT",
     "JAM_5_BASE_CENTRAL_STATION_EXPLORE_FACT"
   ],
+  "GlobalMusic": {
+    "travelAudio": "planets/assets/jam5space.ogg"
+  },
   "curiosities": [
     {
       "id": "JAM5_CURIOSITY",

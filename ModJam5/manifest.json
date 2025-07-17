@@ -4,7 +4,7 @@
   "author": "xen and SBtT",
   "name": "Mod Jam 5",
   "uniqueName": "xen-42.ModJam5",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "owmlVersion": "2.13.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
