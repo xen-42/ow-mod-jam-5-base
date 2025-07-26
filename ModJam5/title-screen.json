@@ -4,26 +4,45 @@
     {
       "disableNHPlanets": true,
       "shareTitleScreen": false,
-/*
-      "music": "OW_TravelerTheme_piano",
+      "music": "TravelerNomai",
       "menuTextTint": {
         "r": 180,
         "g": 60,
         "b": 220
       },
+      "Background": {
+        "details": [
+          {
+            "assetBundle": "planets/assets/jam3title",
+            "path": "Assets/StarshipCommunity.prefab",
+            "rename": "StarshipCommunity",
+            "position": { "x": -32, "y": 125, "z": -50 },
+            "rotation": { "x": 45, "y": 330, "z": 10 },
+            "scale": 0.2
+          }
+        ]
+      },
       "MenuPlanet": {
         "destroyMenuPlanet": true,
         "details": [
           {
-            "assetBundle": "planets/assets/jam5bundle",
-            "path": "Assets/Jam 5/root-jam5-start.prefab",
+            "assetBundle": "planets/assets/jam5title",
+            "path": "Assets/jam5-start-model.prefab",
             "rename": "CentralStation",
+            "removeChildren": [ "StarshipCommunity" ],
             "position": { "y": 4 },
             "scale": 0.2
+          },
+          {
+            "path": "Scene/Background/PlanetPivot/PlanetRoot/Props/Structure_HEA_PlayerShip_v4_NearProxy",
+            "parentPath": "CentralStation/ShipRoot",
+            "rename": "HearthianShip",
+            "position": { "z": 0 },
+            "scale": 1,
+            "isRelativeToParent": true
           }
         ]
       }
-  */
     }
   ]
 }

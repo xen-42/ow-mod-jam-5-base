@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 428524930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 64dd471f1bb7e7c994689bc632b84408
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6fbd691766e7bea7eeccb7e09a1126f4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/jam5-start-model.prefab
+Dependencies: []
