@@ -183,8 +183,16 @@ internal static class MiniSolarSystemOrganizer
             ignoreStaticBodies.Add(platform.Config.name.Trim().ToLowerInvariant());
         }
 
+        bool hubActive = false;
         foreach (var staticBody in staticBodies)
         {
+            //Handle jam hub bodies
+            if(staticBody.Config.name.Equals("AnonDomain") || staticBody.Config.name.Equals("Mod Jam Hub"))
+            {
+                hubActive = true;
+                continue;
+            }
+
             ModJam5.LogDebug($"Fixing static body position {staticBody.Config.name}");
 
             if (ignoreStaticBodies.Contains(staticBody.Config.name.Trim().ToLowerInvariant()))
@@ -208,5 +216,6 @@ internal static class MiniSolarSystemOrganizer
             var angle = angularPosition[staticBody.Mod.ModHelper.Manifest.UniqueName];
             staticBody.Config.Orbit.staticPosition += Quaternion.AngleAxis(angle, Vector3.up) * Vector3.forward * miniSystemDist;
         }
+        PlayerData.SetPersistentCondition("JAM5_HUB_ACTIVE", hubActive);
     }
 }

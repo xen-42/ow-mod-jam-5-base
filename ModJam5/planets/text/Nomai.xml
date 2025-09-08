@@ -68,6 +68,11 @@
         <DialogueTarget>TeachMeditation</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
+        <RequiredPersistentCondition>JAM5_HUB_ACTIVE</RequiredPersistentCondition>
+        <Text>What's with the planet right above us?</Text>
+        <DialogueTarget>JamHubHint</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
         <Text>Goodbye.</Text>
         <DialogueTarget>Goodbye</DialogueTarget>
       </DialogueOption>
@@ -106,7 +111,7 @@
     <Dialogue>
       <Page>Hypothesis: The platforms circling the central hub of this station may contain methods of egress.</Page>
       <Page>Alternatively, you could just fly out through the hole in the ceiling.</Page>
-      <Page>Surely that's how you landed here in the first place, right?</Page>
+      <Page>Surely that is how you landed here in the first place, correct?</Page>
     </Dialogue>
     <SetPersistentCondition>HasSpokenToPing</SetPersistentCondition>
     <DialogueTarget>Menu</DialogueTarget>
@@ -143,6 +148,17 @@
       <Page>Okay traveler, breathe in, and breathe out...</Page>
     </Dialogue>
     <SetCondition>Jam5PingStartMeditation</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>JamHubHint</Name>
+    <Dialogue>
+      <Page>Ah yes, that planet. I have only taken a cursory look at it, but it reminds me of world found in another star system I once visited. It had a blue star, and a true sense of <![CDATA[<color="orange">]]>community<![CDATA[</color>]]>.</Page>
+      <Page>Hypothesis: This planet is unrelated to the <![CDATA[<color="orange">]]>miniature<![CDATA[</color>]]> systems surrounding us, but instead relates to this previous star system.</Page>
+      <Page>There is a warp transmitter below this platform that can take you there, so that you may learn more.</Page>
+      <Page>The staircase in this central platform will lead you to it.</Page>
+    </Dialogue>
+    <DialogueTarget>Menu</DialogueTarget>
   </DialogueNode>
 
 </DialogueTree>

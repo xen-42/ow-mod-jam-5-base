@@ -57,7 +57,7 @@ namespace ModJam5
         {
             var jamEntries = NewHorizons.GetInstalledAddons()
                 .Select(ModHelper.Interaction.TryGetMod)
-                .Where(addon => addon.GetDependencies().Select(x => x.ModHelper.Manifest.UniqueName).Contains(ModHelper.Manifest.UniqueName))
+                .Where(addon => (addon.GetDependencies().Select(x => x.ModHelper.Manifest.UniqueName).Contains(ModHelper.Manifest.UniqueName)))
                 .Append(this)
                 .ToArray();
 
