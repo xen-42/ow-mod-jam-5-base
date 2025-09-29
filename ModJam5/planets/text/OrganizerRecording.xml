@@ -6,11 +6,11 @@
   <TextBlock>
     <ID>2</ID>
     <ParentID>1</ParentID>
-    <Text>Thank you to paulschellin, Hawkbar, ditzy, book, and xen for donating to the prize pool!</Text>
+    <Text>Thank you to Book, ditzy, Hawkbar, paulschellin, valerylabuzhsky, Vambok, and xen for donating to the prize pool!</Text>
   </TextBlock>
   <TextBlock>
     <ID>3</ID>
     <ParentID>2</ParentID>
-    <Text>The judges were: Book, Idiot, loco, Samster68, Wyrm, and xen</Text>
+    <Text>The judges were: Idiot, loco, Samster68, GameWyrm, and xen</Text>
   </TextBlock>
 </NomaiObject>
