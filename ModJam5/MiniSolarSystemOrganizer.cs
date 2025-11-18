@@ -13,6 +13,8 @@ internal static class MiniSolarSystemOrganizer
     public const float MINI_SYSTEM_DISTANCE = 12000f;
     public const float MINI_SYSTEM_DISTANCE_CLOSE = 8000f;
 
+    public static bool HubActive { get; private set; }
+
     public static void Apply(IEnumerable<NewHorizonsBody> bodies, IModBehaviour[] jamEntries)
     {
         int halfEntries = 8;
@@ -183,13 +185,13 @@ internal static class MiniSolarSystemOrganizer
             ignoreStaticBodies.Add(platform.Config.name.Trim().ToLowerInvariant());
         }
 
-        bool hubActive = false;
+        HubActive = false;
         foreach (var staticBody in staticBodies)
         {
             //Handle jam hub bodies
             if(staticBody.Config.name.Equals("AnonDomain") || staticBody.Config.name.Equals("Mod Jam Hub"))
             {
-                hubActive = true;
+                HubActive = true;
                 continue;
             }
 
@@ -216,6 +218,5 @@ internal static class MiniSolarSystemOrganizer
             var angle = angularPosition[staticBody.Mod.ModHelper.Manifest.UniqueName];
             staticBody.Config.Orbit.staticPosition += Quaternion.AngleAxis(angle, Vector3.up) * Vector3.forward * miniSystemDist;
         }
-        PlayerData.SetPersistentCondition("JAM5_HUB_ACTIVE", hubActive);
     }
 }

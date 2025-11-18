@@ -117,6 +117,9 @@ namespace ModJam5
 
             ModHelper.Console.WriteLine("Loaded into Jam 5 system!", MessageType.Success);
 
+            ModHelper.Events.Unity.FireOnNextUpdate(() => 
+                DialogueConditionManager.SharedInstance.SetConditionState("JAM5_HUB_ACTIVE", MiniSolarSystemOrganizer.HubActive));       
+
             ModHelper.Events.Unity.FireInNUpdates(() =>
             {
                 // So stupid but tidal locking is dumb and honestly nh should just let u set rotation directly but i cant be bothered

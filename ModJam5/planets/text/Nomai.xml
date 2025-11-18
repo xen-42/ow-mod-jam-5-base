@@ -68,7 +68,7 @@
         <DialogueTarget>TeachMeditation</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
-        <RequiredPersistentCondition>JAM5_HUB_ACTIVE</RequiredPersistentCondition>
+        <RequiredCondition>JAM5_HUB_ACTIVE</RequiredCondition>
         <Text>What's with the planet right above us?</Text>
         <DialogueTarget>JamHubHint</DialogueTarget>
       </DialogueOption>
