@@ -1,0 +1,81 @@
+{
+  "UIDictionary": {
+    "Ping": "平",
+    "Ping's Vessel": "平的飞船",
+    "Starship Community": "星舰社群",
+    "Central Station": "中央空间站"
+  },
+
+  "DialogueDictionary": {
+    //Computer.xml
+    "Welcome to the 5th Outer Wilds mod jam.": "欢迎来到第五届《星际拓荒》模组创作赛。",
+    "The jam is over! Go play the entries!": "创作赛结束啦！快去体验这些参赛作品吧！",
+
+    //Nomai.xml
+    "Ping": "平",
+    "...": "……",
+    "Greetings traveler!": "旅行者，你好！",
+    "Hello again traveler!": "旅行者，又见面了！",
+    "What is on your mind, traveler?": "旅行者，你在想什么呢？",
+    "I am unsure. I stumbled on this vessel, as did you. My own ship is parked nearby.": "我也不确定。我和你一样，都是偶然发现了这艘舰船。我的飞船就停在附近。",
+    "I have synced the warp transmitter at the center of this vessel to the receiver on board my own, if you wish to visit my ship and peruse the notes I have made on this system.": "我已经将这艘舰船中心的跃迁传送平台与我自己船上的接收平台同步了，如果你想参观我的飞船、看看我对这个星系的记录，随时可以去。",
+    "Perhaps system is the wrong word: We seem to be in a cluster of <![CDATA[<color=\"orange\">]]>miniature<![CDATA[</color>]]> star systems, with this large vessel at the center.": "或许“星系”这个词不太准确：我们似乎身处一群<![CDATA[<color=\"orange\">]]>小型<![CDATA[</color>]]>恒星系统的集群中，而这艘大型舰船就在集群中心。",
+    "Each platform in this vessel seems to relate to each of these small systems. I encourage you to investigate each of them, and relay to me your findings!": "这艘舰船里的每个平台似乎都对应着一个小型系统。我建议你逐一探索，然后把发现告诉我！",
+    "My name is Ping. I am an explorer, much like yourself, I imagine.": "我叫平，是一名探险家，我想你也是吧。",
+    "I believe we may have met previously?": "我感觉我们之前可能见过？",
+    "I am eager to explore this system, I imagine you are as well. However, it took me quite some time to fix the warp transmitter behind me and I am at the moment quite fatigued.": "我很想探索这个星系，想必你也是。但我花了好长时间才修好身后的跃迁传送平台，现在实在太累了。",
+    "I will allow you to get a headstart on exploring this station while I take a short rest! I should be able to join you in this endeavor in approximately <![CDATA[<color=\"orange\">]]>22 minutes<![CDATA[</color>]]>.": "我先休息一会儿，你先去探索这个空间站吧！大概<![CDATA[<color=\"orange\">]]>22分钟<![CDATA[</color>]]>后，我就能跟你一起探索了！",
+    "Hypothesis: The platforms circling the central hub of this station may contain methods of egress.": "假设：围绕空间站中心的那些平台，或许存在出口。",
+    "Alternatively, you could just fly out through the hole in the ceiling.": "或者，你也可以直接从天花板的洞口飞出去。",
+    "Surely that is how you landed here in the first place, correct?": "你当初肯定就是这么着陆的，对吧？",
+    "Farewell visitor! Safe travels to you.": "再见了，访客！一路平安。",
+    "Yes, I do! Here, let me teach you.": "是的，我会！来，我教你。",
+    "Okay, let's do this.": "好的，我们开始吧。",
+    "Wait, nevermind.": "等等，还是算了。",
+    "Okay traveler, breathe in, and breathe out...": "好了旅行者，吸气，呼气……",
+    "Ah yes, that planet. I have only taken a cursory look at it, but it reminds me of world found in another star system I once visited. It had a blue star, and a true sense of <![CDATA[<color=\"orange\">]]>community<![CDATA[</color>]]>.": "啊，对，那颗行星。我只粗略地看了一眼，但它让我想起了我曾去过的另一个恒星系统里的星球。那个系统有一颗蓝色恒星，还透着一种真正的<![CDATA[<color=\"orange\">]]>社群<![CDATA[</color>]]>的感觉。",
+    "Hypothesis: This planet is unrelated to the <![CDATA[<color=\"orange\">]]>miniature<![CDATA[</color>]]> systems surrounding us, but instead relates to this previous star system.": "假设：这颗行星与我们周围的<![CDATA[<color=\"orange\">]]>小型<![CDATA[</color>]]>系统无关，而是与我之前去过的那个恒星系统有关。",
+    "There is a warp transmitter below this platform that can take you there, so that you may learn more.": "这个平台下方有一个跃迁传送平台能带你去那里，这样你就能了解更多了。",
+    "The staircase in this central platform will lead you to it.": "中央平台的楼梯会带你到传送平台那里。",
+    "Who are you?": "你是谁？",
+    "Where are we?": "我们在哪里？",
+    "How do I get out of here?": "我怎么从这里出去？",
+    "Hey, do you know how to meditate?": "嘿，你知道怎么冥想吗？",
+    "What's with the planet right above us?": "我们正上方的那颗行星是怎么回事？",
+    "Goodbye.": "再见。",
+
+    //Note.xml
+    "SIGN": "告示牌",
+    "Thank you Streetlights Behind the Trees for making the two Nomai vessel models used in this jam!": "感谢Streetlights Behind the Trees制作了本次创作赛中使用的两艘挪麦舰船的模型！",
+    "Also thanks hearth1an for the texture used for the modern Nomai.": "也感谢hearth1an提供了现代挪麦人的纹理素材！",
+
+    //OrganizerRecording.xml
+    "The 5th Outer Wilds mod jam was organized by xen and Streetlights Behind the Trees.": "第五届《星际拓荒》模组创作赛由xen和Streetlights Behind the Trees组织。",
+    "Thank you to Book, ditzy, Hawkbar, paulschellin, valerylabuzhsky, Vambok, and xen for donating to the prize pool!": "感谢Book、ditzy、Hawkbar、paulschellin、valerylabuzhsky、Vambok和xen为奖金池捐款！",
+    "The judges were: Idiot, loco, Samster68, GameWyrm, and xen": "评委包括：Idiot、loco、Samster68、GameWyrm和xen。",
+
+    //Whiteboard1.xml
+    "The first place winner of the mod jam was...": "本次模组创作赛的第一名是……",
+    "Heliostudy! Congratulations coderCleric, Lezzlebit, Walker, and JohnCorby!": "Heliostudy！恭喜coderCleric、Lezzlebit、Walker和JohnCorby！",
+
+    //Whiteboard2.xml
+    "The second place winner of the mod jam was...": "本次模组创作赛的第二名是……",
+    "Eden's Hope! Congratulations to the Wrong Warp Team (Hawkbar and Insmoshable)!": "Eden's Hope！恭喜Wrong Warp团队（Hawkbar和Insmoshable）！",
+
+    //Whiteboard3.xml
+    "The third place winner of the mod jam was...": "本次模组创作赛的第三名是……",
+    "The Cosmic Curators! Congratulations to the Signal Jammers (pikpik_carrot, Anonymous, Echatsum, Repcon, and cOa Rex)!": "The Cosmic Curators！恭喜Signal Jammers团队（pikpik_carrot、Anonymous、Echatsum、Repcon和cOa Rex）！"
+  },
+
+  "ShipLogDictionary": {
+    //CentralStation.xml
+    "Central Station": "中央空间站",
+    "A derelict Nomai vessel surrounded by small star systems. This is the central hub for the fifth Outer Wilds community mod jam!": "一艘废弃的挪麦舰船，周围环绕着小型恒星系统。这里是第五届《星际拓荒》社群模组创作赛的中心枢纽！",
+
+    //StarshipCommunity.xml
+    "Ping's Vessel": "平的飞船",
+    "Starship Community": "星舰社群",
+    "There is a smaller Nomai vessel nearby.": "附近有一艘较小的挪麦舰船。",
+    "A Nomai named Ping travelled here using this vessel.": "一位名叫平的挪麦人乘坐这艘舰船来到了这里。"
+  }
+}
